@@ -3,17 +3,23 @@
 **Sovereign eSIM provisioning for personal data dominion.**
 
 ## Purpose
-Independent eSIM profile generation, activation, and management. Breaks carrier lock-in through Python automation, YAML configs, and Apple ecosystem integration (iCloud, eSIM APIs).
+Independent eSIM profile generation, activation, and management. Breaks carrier lock-in through automation, YAML configs, and Apple ecosystem integration.
 
-## Features (Planned)
-- Generate GSMA-compliant eSIM profiles via Replit
+## Features
+- Generate GSMA-compliant eSIM profiles 
 - Stripe/Calendly commerce hooks for sovereignty services
 - Healthcare sovereignty engine integration
 - Firmament.py-style data immutability
 
-## Quick Start
+## Setup
+
+### TypeScript Full Stack (Recommended)
 ```bash
-git clone https://github.com/madiwynn/wy-series-llc
-cd wy-series-llc
-pip install -r requirements.txt
-python esimsov.py --deploy
+pnpm install
+pnpm dev
+
+**Deploy it:**
+```bash
+git add README.md
+git commit -m "Enhanced dual-stack eSIM sovereignty README"
+git push
